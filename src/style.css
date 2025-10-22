@@ -11,7 +11,11 @@
   --color-gray-light: #d3dce6;
 }
  
-
+body {
+  max-width: 430px;
+  margin: 0 auto;
+  background: #f3f4f6; /* gray-100 */
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

@@ -27,14 +27,16 @@ const isLoading = ref(true);
 </script>
 
 <template>
-  <div class="h-screen w-screen" id="main_page_dhdfnhg3453">
-    <div v-if="isLoading"  class="page-loader">
-      <!-- <img src="./assets/images/loader/pepsagif.png" alt="" class="animate__heartBeat animate__infinite animate__animated"> -->
-    </div>
-    <div v-else class="wrapper mmb:max-h-[1884px] smb:max-h-[1701px] relative h-full overflow-y-scroll bg-white">
-      <!-- <Notification /> -->
-      <RouterView></RouterView>
-      <!-- <OfflineIndicator /> -->
+  <div class="min-h-screen flex justify-center bg-gray-100" id="main_page_dhdfnhg3453">
+    <div class="w-[400px] bg-white min-h-screen shadow-md">
+      <div v-if="isLoading"  class="page-loader">
+        <!-- <img src="./assets/images/loader/pepsagif.png" alt="" class="animate__heartBeat animate__infinite animate__animated"> -->
+      </div>
+      <div v-else class="wrapper mmb:max-h-[1884px] smb:max-h-[1701px] relative h-full overflow-y-scroll bg-white">
+        <!-- <Notification /> -->
+        <RouterView></RouterView>
+        <!-- <OfflineIndicator /> -->
+      </div>
     </div>
   </div>
  

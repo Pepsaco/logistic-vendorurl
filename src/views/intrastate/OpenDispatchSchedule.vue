@@ -84,8 +84,8 @@ import { ref, onMounted } from "vue";
 import axiosinstance from '@/auth';
 import Swal from "sweetalert2";
 import { useAuthenticationStore } from '@/stores/authentication';
-import InputPickupLocation from '@/components/Inputs/InputPickupLocation.vue';
-import InputDelivryLocation from '@/components/Inputs/InputDelivryLocation.vue';
+import InputPickupLocation from '@/components/inputs/InputPickupLocation.vue';
+import InputDelivryLocation from '@/components/inputs/InputDelivryLocation.vue'
 import { pickupKey, deliveryKey, itemDetailsKey, schedulekey } from "@/config.js";
 import { useSessionEncryption } from '@/composables/useSessionEncryption';
 

@@ -95,8 +95,8 @@ import { pickupKey, deliveryKey, itemDetailsKey } from "@/config.js";
 // import { useAuthenticationStore } from '@/stores/authentication';
 // import DashboardFooter from '@/components/headers/DashboardFooter.vue';
 import DisptatchInterStateItem from '@/components/interstate/DisptatchInterStateItem.vue';
-import InterStateInputPickupLocation from '@/components/Inputs/InterStateInputPickupLocation.vue';
-import InterStateInputDeliveryLocation from '@/components/Inputs/InterStateInputDeliveryLocation.vue';
+import InterStateInputPickupLocation from '@/components/inputs/InterStateInputPickupLocation.vue';
+import InterStateInputDeliveryLocation from '@/components/inputs/InterStateInputDeliveryLocation.vue';
 import { useSessionEncryption } from '@/composables/useSessionEncryption';
 
 const { saveToSession, getFromSession } = useSessionEncryption();
