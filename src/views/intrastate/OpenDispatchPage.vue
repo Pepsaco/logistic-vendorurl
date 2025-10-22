@@ -15,7 +15,7 @@
             </div>
             <div class="w-[10%] flex justify-end"></div>
         </div>
-        <div class=" px-4 grid font-josefin text-[14px] mt-[10px] max-h-[860px] h-full  mb-[100px]">
+        <div class="w-full px-4 grid font-josefin text-[14px] mt-[10px] max-h-[860px] h-full  mb-[100px]">
            <div class="mt-4"> <span class="font-bold text-[18px]">Instant Delivery</span> </div>
            <form action="" method="post"  @submit.prevent="ContnueProcessSendOrder()">
                  <InputPickupLocation  />

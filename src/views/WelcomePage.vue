@@ -36,7 +36,7 @@
   import { useNavigation } from '@/composables/useNavigation';
   import { ref, onMounted } from 'vue'
   import { useRoute, useRouter } from 'vue-router'
-  import axios from 'axios'
+    import axiosinstance from '@/auth'
   import { useHead } from '@vueuse/head' // For SEO
 import { useEncryption } from '@/composables/useEncryption'
 
@@ -73,7 +73,8 @@ const fetchVendor = async () => {
 
   // ✅ Step 2: Otherwise fetch from API
   try {
-    const res = await axios.get(`http://127.0.0.1:8080/api/vendors/${slug}`)
+    //  const res = await axiosinstance.post('vendors/customer/check/phone',{
+    const res = await axiosinstance.get(`vendors/${slug}`)
     // console.log(res.data.data.company_name);return
     vendor.value = res.data.data
     company_name.value = res.data.data.company_name
