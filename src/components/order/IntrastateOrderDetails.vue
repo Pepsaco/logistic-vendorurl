@@ -183,7 +183,7 @@
                
                         <div class="flex items-center">
                             <div class="w-[20%]">
-                                <img src="../../../assets/images/resource/default_logo.png" alt="" class="w-full h-full rounded-full">
+                                <img src="../../assets/images/default_logo.png" alt="" class="w-full h-full rounded-full">
                             </div>
                             <div class="w-[80%] grid items-center pl-2">
                                 <span class="font-poppins text-[14px] font-medium leading-[130%]">{{riderName}}</span>

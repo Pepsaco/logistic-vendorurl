@@ -119,7 +119,7 @@
                
                 <div class="flex items-center">
                     <div class="w-[20%]">
-                        <img src="../../assets/images/resource/default_logo.png" alt="" class="w-full h-full rounded-full">
+                        <img src="../../assets/images/default_logo.png" alt="" class="w-full h-full rounded-full">
                     </div>
                     <div class="w-[80%] grid items-center pl-2">
                         <span class="font-poppins text-[14px] font-medium leading-[130%]">{{riderName}}</span>
@@ -242,11 +242,10 @@
  import { useRouter, useRoute } from 'vue-router'
 import { useNavigation } from "@/composables/useNavigation";
 import { ref, onMounted } from "vue";
-import DashboardFooter from '@/components/headers/DashboardFooter.vue';
 import axiosinstance from '@/auth';
-import ConfirmPickupCode from '@/components/opendispatch/ConfirmPickupCode.vue';
-import ReceiverDeliveryCode from '@/components/opendispatch/ReceiverDeliveryCode.vue';
-import GoogleMap from '@/components/opendispatch/GoogleMap.vue';
+import ConfirmPickupCode from '@/components/order/ConfirmPickupCode.vue';
+import ReceiverDeliveryCode from '@/components/order/ReceiverDeliveryCode.vue';
+import GoogleMap from '@/components/order/GoogleMap.vue';
 
 const { navigateTo } = useNavigation();
 const router = useRouter();

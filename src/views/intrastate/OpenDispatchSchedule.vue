@@ -50,7 +50,7 @@
                 </div>
                 <div class="grid mt-2">
                     <span class="font-bold text-[18px]">Vehicle Type</span>
-                    <span class="font-poppins text-[10px] flex" v-if="ajaxloading">Loading....... <img src="../../../assets/images/loader/ajax-loader-white.gif" alt="" class="w-[10px]"></span>
+                    <span class="font-poppins text-[10px] flex" v-if="ajaxloading">Loading....... <img src="../../assets/images/loader/ajax-loader-white.gif" alt="" class="w-[10px]"></span>
                 </div>
                 <div v-if="transportOptions" class="radio-with-Icon flex mt-2 max-w-[330px] w-full overflow-x-scroll">
                     <p v-for="(label, value) in transportOptions" :key="value" class="radioOption-Item">
@@ -75,7 +75,6 @@
         <div v-if="showFlashSuccess" class="fixed bottom-[74px] left-0 right-0 bg-[#01947a] font-poppins font-bold text-[12px] w-full h-[40px] p-2 flex justify-center text-white">{{ showFlashSuccess }}</div>
         <div v-if="ShowFlashError" class="fixed bottom-[74px] left-0 right-0 bg-[#f12222] font-poppins font-bold text-[12px] w-full h-[40px] p-2 flex justify-center text-white">{{ ShowFlashError }}</div>
 
-        <DashboardFooter/>
     </div>
 </template>
 <script setup>
@@ -85,7 +84,6 @@ import { ref, onMounted } from "vue";
 import axiosinstance from '@/auth';
 import Swal from "sweetalert2";
 import { useAuthenticationStore } from '@/stores/authentication';
-import DashboardFooter from '@/components/headers/DashboardFooter.vue';
 import InputPickupLocation from '@/components/Inputs/InputPickupLocation.vue';
 import InputDelivryLocation from '@/components/Inputs/InputDelivryLocation.vue';
 import { pickupKey, deliveryKey, itemDetailsKey, schedulekey } from "@/config.js";

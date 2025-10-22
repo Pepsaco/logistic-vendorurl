@@ -40,7 +40,7 @@
                 </div>
                 <div class="grid mt-2">
                     <span class="font-bold text-[18px]">Vehicle Type</span>
-                    <span class="font-poppins text-[10px] flex" v-if="ajaxloading">Loading....... <img src="../../../assets/images/loader/ajax-loader-white.gif" alt="" class="w-[10px]"></span>
+                    <span class="font-poppins text-[10px] flex" v-if="ajaxloading">Loading....... <img src="../../assets/images/loader/ajax-loader-white.gif" alt="" class="w-[10px]"></span>
                 </div>
                 <div v-if="transportOptions" class="radio-with-Icon flex mt-2 max-w-[330px] w-full overflow-x-scroll">
                     <p v-for="(label, value) in transportOptions" :key="value" class="radioOption-Item">
