@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen h-screen overflow-hidden bg-white
+    <div class="w-full h-screen overflow-hidden bg-white
     items-center grid">
         <div v-if="loading" class="text-gray-500">Loading vendor...</div>
 

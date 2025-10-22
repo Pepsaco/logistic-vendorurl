@@ -16,7 +16,7 @@
             <div class="w-[10%] flex justify-end"></div>
         </div>
          
-        <div class="w-screen mx-auto px-4 grid font-poppins text-[12px] mb-[150px]">
+        <div class="w-full mx-auto px-4 grid font-poppins text-[12px] mb-[150px]">
             <div class="mt-4"> <span class="font-bold text-[18px]">Confirm Details</span> </div>
             <div class="flex w-full mt-3">
                 <div class="w-[5%] ">

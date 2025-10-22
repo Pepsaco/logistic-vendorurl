@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen bg-[#f5f5f5] fixed left-0 right-0 bottom-0 px-4 mx-auto py-4 z-10 overflow-y-scroll h-full">
+    <div class="w-full bg-[#f5f5f5] fixed left-0 right-0 bottom-0 px-4 mx-auto py-4 z-10 overflow-y-scroll h-full">
         <div class="flex justify-center items-center border-[6px] rounded-[25px] w-[198px] h-[250px] px-4 mx-auto">
             <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M59.9998 10L73.1323 19.58L89.3898 19.55L94.3823 35.02L107.552 44.55L102.5 60L107.552 75.45L94.3823 84.98L89.3898 100.45L73.1323 100.42L59.9998 110L46.8673 100.42L30.6098 100.45L25.6173 84.98L12.4473 75.45L17.4998 60L12.4473 44.55L25.6173 35.02L30.6098 19.55L46.8673 19.58L59.9998 10Z" stroke="#F9A82C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>

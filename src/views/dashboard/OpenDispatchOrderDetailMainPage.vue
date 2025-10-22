@@ -4,7 +4,7 @@
        <img src="../../assets/images/loader/pepsagif.png" alt="" class="animate__heartBeat animate__infinite animate__animated">
    </div>
  <div class="bg-white">
-    <div class="main w-screen  rounded-[32px] bg-[#F5F5F5] max-h-[896px] h-screen overflow-scroll mb-[10px]"> 
+    <div class="main w-full  rounded-[32px] bg-[#F5F5F5] max-h-[896px] h-screen overflow-scroll mb-[10px]"> 
         <IntrastateOrderDetails  @CloseIntrastate="handlecloseIntrastate" v-if="IsIntrastateOrderDetails" :MasterSlug="orderid"/>
         <InterstateOrderDetails @CloseInterstate="handlecloseInterstate" v-if="IsInterstateOrderDetails" :MasterSlug="orderid"/>
     </div>

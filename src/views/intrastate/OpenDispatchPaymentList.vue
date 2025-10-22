@@ -15,7 +15,7 @@
             </div>
             <div class="w-[10%] flex justify-end"></div>
         </div>
-        <div class="bg-white w-screen pt-[7px] pl-[21px] pb-[8px] pr-[21px] mt-[10px] ">
+        <div class="bg-white w-full pt-[7px] pl-[21px] pb-[8px] pr-[21px] mt-[10px] ">
             <div class="mt-[20px] grid text-center justify-center border-b pb-3 border-[#eee]">
                 <span class="text-[18px] font-semibold leading-[12px]">Delivery Payment</span>
                 <span class="text-[25px] font-bold">{{ $formatPrice(amtData.mobilityPrice) }}  </span>

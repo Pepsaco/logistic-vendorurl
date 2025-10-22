@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen bg-[#f5f5f5] fixed left-0 right-0 top-0 px-4 mx-auto py-4 z-10 overflow-y-scroll h-full">
+    <div class="w-full bg-[#f5f5f5] fixed left-0 right-0 top-0 px-4 mx-auto py-4 z-10 overflow-y-scroll h-full">
         <div class="grid mx-auto px-4 mb-4">
             <!-- <div class="flex w-full"></div> -->
             <div class="flex w-full mt-[20px] justify-end">

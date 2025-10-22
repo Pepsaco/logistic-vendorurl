@@ -29,7 +29,7 @@
         <!-- <general-headers v-if="!user"  />
          -->
         
-        <div class="bg-white w-screen mt-6">
+        <div class="bg-white mt-6">
             <div class="flex px-4 mb-4">
                 <span class="pr-2">
                     <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">

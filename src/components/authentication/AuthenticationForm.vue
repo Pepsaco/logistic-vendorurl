@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen fixed left-0 right-0 top-0 px-4 mx-auto py-4 bg-white z-10 overflow-y-scroll h-full mb-100">
+    <div class="w-full fixed left-0 right-0 top-0 px-4 mx-auto py-4 bg-white z-10 overflow-y-scroll h-full mb-100">
        <div class="grid mx-auto px-4">
             <div class="flex w-full mt-[20px]">
                <div @click="$emit('handleAuthClose')" class="w-[10%]">X</div>

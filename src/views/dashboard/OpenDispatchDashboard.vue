@@ -17,7 +17,7 @@
                 </a>
             </div>
         </div>
-        <div class="w-screen mx-auto px-4 mt-6">
+        <div class="w-full mx-auto px-4 mt-6">
            <div class="grid mx-auto px-2 mb-4">
                <RouterLink :to="'/opendispatch/send-orders'" class="w-full h-[128px] grid py-4 px-3 bg-[#FFA2A6] rounded">
                    <!-- <div class="flex w-full h-full justify-end  top-[74px] left-0 z-[9999]" style="position: relative;">

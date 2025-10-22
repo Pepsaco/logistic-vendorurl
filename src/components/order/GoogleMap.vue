@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-screen fixed left-0 right-0 top-0 px-4 py-4 z-10">
+  <div class="w-full h-screen fixed left-0 right-0 top-0 px-4 py-4 z-10">
     <div class="grid mx-auto px-4">
       <div class="flex w-full mt-[20px]">
         <div @click="$emit('closemap')" class="w-[10%] cursor-pointer">X</div>

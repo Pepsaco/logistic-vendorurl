@@ -3,7 +3,7 @@
         <!-- You can use a loading spinner or any other loading animation here -->
         <img src="../../assets/images/loader/pepsagif.png" alt="" class="animate__heartBeat animate__infinite animate__animated">
     </div>
-    <div class="w-screen bg-[#f5f5f5] fixed left-0 right-0 bottom-0 px-4 mx-auto py-4 z-10 overflow-y-scroll h-full">
+    <div class="w-full bg-[#f5f5f5] fixed left-0 right-0 bottom-0 px-4 mx-auto py-4 z-10 overflow-y-scroll h-full">
         <div class="grid mx-auto px-4">
             <div class="flex w-full"></div>
             <div class="flex w-full mt-[20px]">

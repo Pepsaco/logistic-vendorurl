@@ -19,7 +19,7 @@
                 </a>
             </div>
         </div>
-        <div class="main w-screen  rounded-[32px] bg-[#F5F5F5] max-h-[896px] h-screen overflow-scroll mb-[10px]"> 
+        <div class="main w-full  rounded-[32px] bg-[#F5F5F5] max-h-[896px] h-screen overflow-scroll mb-[10px]"> 
             <!-- <div class="w-screen mx-auto px-4 mt-6"> -->
             <div class="w-[90%] flex justify-start pl-4 mb-4 mt-4">
                 <span class="font-[12px] text-[#111111]">How would you like to deliver an item?</span>

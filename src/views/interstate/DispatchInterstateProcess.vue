@@ -1,6 +1,6 @@
 <template>
     <div>
-         <div class="w-screen bg-[#f5f5f5] fixed left-0 right-0 top-0 px-4 mx-auto py-4 z-10 overflow-y-scroll h-full">
+         <div class="w-full bg-[#f5f5f5] fixed left-0 right-0 top-0 px-4 mx-auto py-4 z-10 overflow-y-scroll h-full">
             <div class="flex w-full h-full items-center justify-center">
                 <div  class="text-[#F00] font-rubik text-[16px] font-semibold leading-[36px] capitalize grid" v-if="loader == true">
                     <span class="p-6">Processing dispatch ...</span> 
